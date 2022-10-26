@@ -1,0 +1,65 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	font-size: 16px;
+	--primary: #27bebb;
+	--accent: #4fb961;
+	--light: white;
+	--dark: black;
+}
+
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	background:  linear-gradient(0deg, transparent, var(--primary));
+	padding-bottom: 64px;
+	justify-content: space-between;
+}
+
+nav div.buttons {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	padding-right: 2rem;
+}
+
+nav div.buttons button {
+	background-color: inherit;
+	border-style: none;
+	font-size: 1rem;
+	font-weight: 700;
+	color: var(--light);
+	padding: 1rem 0.5rem;
+}
+
+ul {
+	margin: 0;
+}
+
+.logo img {
+	height: 96px;
+}
+
+.content {
+	padding: 0rem 4rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+a {
+	color: var(--primary);
+	font-weight: 700;
+}
+
+li {
+	list-style-type: circle;
+}
