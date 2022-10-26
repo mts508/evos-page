@@ -18,8 +18,8 @@ html, body {
 nav {
 	display: flex;
 	flex-direction: row;
-	background:  linear-gradient(0deg, transparent, var(--primary));
-	padding-bottom: 64px;
+	background:  linear-gradient(0deg, var(--accent), var(--primary));
+	padding-top: 32px;
 	justify-content: space-between;
 }
 
